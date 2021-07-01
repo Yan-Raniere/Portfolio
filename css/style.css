@@ -1,0 +1,138 @@
+/* Header ======================== */
+
+header {
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 2.6rem;
+    width: 100%;
+}
+header .name {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-family: "Comfortaa";
+    font-weight: 700;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+header nav ul li a {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-family: "Raleway";
+    font-weight: 500;
+    color: var(--line);
+}
+
+/* Mid-all ======================= */
+
+.mid-all .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left-Side ===================== */
+
+.mid-all .left-side {
+    width: 46rem;
+}
+.mid-all .left-side .profession {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    color: var(--yellow);
+    margin-top: 5.4rem;
+}
+.mid-all .left-side h2 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 7.6rem;
+    margin-top: 1.2rem;
+}
+.mid-all .left-side .litle-about-me {
+    font-family: "Nunito";
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: var(--dark-gray);
+    margin: 3.2rem 0;
+}
+.mid-all .left-side .projects {
+    padding: 1rem 2.6rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--line);
+    background-color: var(--yellow);
+    border-radius: 0.8rem;
+    margin-right: 1.2rem;
+}
+.mid-all .left-side .linkedin {
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 2.7rem;
+    padding: 0.8rem 2.4rem;
+    border-radius: 0.8rem;
+    border: 2px solid #25282b;
+    color: var(--line);
+}
+
+/* Right-Side ==================== */
+
+.right-side {
+    height: 57.4rem;
+    width: 57.4rem;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    background-image: url(/images/20210618_152711-removebg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1.4rem;
+}
+
+/* Footer ======================== */
+
+footer {
+    position: absolute;
+    width: 1200px;
+    bottom: 2rem;
+}
+footer .mid-picture {
+    margin-inline: 3.2rem;
+}
+footer .contact-footer {
+    text-align: center;
+}
+footer .last-text {
+    text-align: center;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: var(--dark-gray);
+    margin-top: 3.2rem;
+}
+
+/* Hover ========================= */
+
+header nav li :hover {
+    color: var(--yellow);
+}
+.mid-all .left-side .buttons :hover {
+    filter: brightness(1.2);
+}
+.mid-all .left-side .buttons .linkedin :hover {
+    background-color: burlywood;
+}

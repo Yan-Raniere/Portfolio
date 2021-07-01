@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    --line: #25282b;
+    --gray: #f9faff;
+    --white: #ffffff;
+    --dark-gray: #828282;
+    --yellow: #fdc435;
+    --back:#ecebeb;
+
+    font-size: 62.5%;
+}
+.wrapper {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+body{
+    background-color:var(--back);
+}
