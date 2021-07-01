@@ -56,7 +56,7 @@ header nav ul li a {
     font-weight: 700;
     font-size: 6.4rem;
     line-height: 7.6rem;
-    margin-top: 11.2rem;
+    margin-top: 2rem;
 }
 .mid-all .left-side .litle-about-me {
     font-family: "Nunito";
@@ -101,13 +101,12 @@ header nav ul li a {
     margin-top: 2.4rem;
 }
 
-
 /* Footer ======================== */
 
 footer {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    bottom: 2rem;
+    margin-top: 3rem;
 }
 footer .mid-picture {
     margin-inline: 3.2rem;
@@ -122,9 +121,12 @@ footer .last-text {
     font-size: 1.6rem;
     line-height: 2.1rem;
     color: var(--dark-gray);
-    margin-top: 3.2rem;
+    margin: 3.2rem 0 2rem 0;
 }
-
+footer .last-text .mid-last{
+    
+margin: .7rem;
+}
 /* Hover ========================= */
 
 header nav li :hover {

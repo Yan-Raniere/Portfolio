@@ -10,7 +10,7 @@ html {
     --white: #ffffff;
     --dark-gray: #828282;
     --yellow: #fdc435;
-    --back:#ecebeb;
+    --back: #ecebeb;
 
     font-size: 62.5%;
 }
@@ -18,6 +18,6 @@ html {
     max-width: 1200px;
     margin-inline: auto;
 }
-body{
-    background-color:var(--back);
+body {
+    background-color: var(--back);
 }

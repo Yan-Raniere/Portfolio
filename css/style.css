@@ -105,9 +105,9 @@ header nav ul li a {
 /* Footer ======================== */
 
 footer {
-    position: absolute;
-    width: 1200px;
-    bottom: 2rem;
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 3rem;
 }
 footer .mid-picture {
     margin-inline: 3.2rem;
@@ -122,9 +122,12 @@ footer .last-text {
     font-size: 1.6rem;
     line-height: 2.1rem;
     color: var(--dark-gray);
-    margin-top: 3.2rem;
+    margin: 3.2rem 0 2rem 0;
 }
-
+footer .last-text .mid-last{
+    
+margin: .7rem;
+}
 /* Hover ========================= */
 
 header nav li :hover {
